@@ -3,7 +3,7 @@ Analisador Léxico para uma linguagem hipotética.
 A partir de uma entrada, onde contem uma cadeia de caracteres, é gerado uma lista de lexemas+tokens.
 Exemplo: "a = 34 / (3 + 5)", gera os seguintes lexemas+tokens.
 - '=' → ASSIGNMENT
- -'34' → NUMBER
+- '34' → NUMBER
 - '/' → OPERATOR_DIVISION
 - '(' → DELIMITER_OPEN_PARENTHESES
 - '3' → NUMBER
