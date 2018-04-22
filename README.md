@@ -12,7 +12,7 @@ Exemplo: "a = 34 / (3 + 5)", gera os seguintes lexemas+tokens.
 - ')' → DELIMITER_CLOSE_PARENTHESES
 
 ## Como usar
-Voce pode gerar um Nuegt da aplicação ou importar a referencia em uma aplicação de console, por exemplo. Em seguida faça:
+Voce pode gerar um Nuget ou importar a referencia em uma aplicação de console, por exemplo, em seguida faça:
 
 ```
         static void Main(string[] args)
