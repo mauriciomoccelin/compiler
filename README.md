@@ -17,7 +17,7 @@ Voce pode gerar um Nuget ou importar a referencia em uma aplicação de console,
 ```
         static void Main(string[] args)
         {
-            string codigo = "(a = 34 / (3 + 5)";
+            string codigo = "var resultado = (34 / (3 + 5)";
 
             Lexer lexer = new Lexer();
             IEnumerable<TokenDefinition> tokenDefinition = TokenDefinition.GetTokens();
@@ -27,7 +27,14 @@ Voce pode gerar um Nuget ou importar a referencia em uma aplicação de console,
                 lexer.AddDefinition(token);
             }
 
-            var tokens = lexer.Tokenize(source).ToList();
+            var tokens = lexer.Tokenize(codigo).ToList();
+
+            foreach (var item in tokens)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            Console.Read();
         }
 ```
 
