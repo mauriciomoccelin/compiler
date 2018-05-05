@@ -30,12 +30,14 @@ namespace LexicalAnalyzer
 
             #region Numeric
 
+            tokens.Add(new TokenDefinition("DECIMAL", new Regex(@"\d+(\.\d{1,2})?")));
             tokens.Add(new TokenDefinition("NUMBER", new Regex(@"\d+")));
 
             #endregion
 
             #region Operator Tokens
 
+            tokens.Add(new TokenDefinition("OPERATOR_POTENTIATION", new Regex(@"\^")));
             tokens.Add(new TokenDefinition("OPERATOR_SUM", new Regex(@"\+")));
             tokens.Add(new TokenDefinition("OPERATOR_SUBTRACTION", new Regex(@"\-")));
             tokens.Add(new TokenDefinition("OPERATOR_MULTIPLICATION", new Regex(@"\*")));
@@ -46,11 +48,11 @@ namespace LexicalAnalyzer
 
             #region Relational Operators
 
-            tokens.Add(new TokenDefinition("OPERATOR_BIGGER", new Regex(@"\>")));
-            tokens.Add(new TokenDefinition("OPERATOR_SMALLER", new Regex(@"\<")));
+            tokens.Add(new TokenDefinition("OPERATOR_EQUAL", new Regex(@"[==]+")));
             tokens.Add(new TokenDefinition("OPERATOR_LESS_EQUAL", new Regex(@"[<=]+")));
             tokens.Add(new TokenDefinition("OPERATOR_GREATER_EQUAL", new Regex(@"[>=]+")));
-            tokens.Add(new TokenDefinition("OPERATOR_EQUAL", new Regex(@"[==]+")));
+            tokens.Add(new TokenDefinition("OPERATOR_BIGGER", new Regex(@"\>")));
+            tokens.Add(new TokenDefinition("OPERATOR_SMALLER", new Regex(@"\<")));
 
             #endregion
 
@@ -99,6 +101,13 @@ namespace LexicalAnalyzer
             #region Identifiers
 
             tokens.Add(new TokenDefinition("IDENTIFIER", new Regex(@"[A-Za-z_][a-zA-Z0-9_]+")));
+
+            #endregion
+
+            #region Types
+
+            tokens.Add(new TokenDefinition("TYPE_INT", new Regex(@"int")));
+            tokens.Add(new TokenDefinition("TYPE_REAL", new Regex(@"real")));
 
             #endregion
 
