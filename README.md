@@ -14,7 +14,7 @@ Exemplo: "var resultado = (34 / (3 + 5)", gera os seguintes lexemas+tokens.
 - ')' → DELIMITER_CLOSE_PARENTHESES
 
 ## Como usar
-Voce pode gerar um Nuget ou importar a referencia em uma aplicação de console, por exemplo, em seguida faça:
+Voce pode gerar um Nuget ou importar a refêrencia em uma aplicação de console. Em seguida faça:
 
 ```
         static void Main(string[] args)
