@@ -19,7 +19,8 @@ Voce pode gerar um Nuget ou importar a referencia em uma aplicação de console,
 ```
         static void Main(string[] args)
         {
-            string codigo = "var resultado = (34 / (3 + 5)";
+            string codigo = "var teste = (34 / (3.5 + 5^2) ." +
+                            "if (34 >= 5) { return; }";
 
             Lexer lexer = new Lexer();
             IEnumerable<TokenDefinition> tokenDefinition = TokenDefinition.GetTokens();
