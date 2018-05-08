@@ -1,7 +1,8 @@
 # LexicalAnalyzer
-Analisador Léxico para uma linguagem hipotética.
-A partir de uma entrada, onde contem uma cadeia de caracteres, é gerado uma lista de lexemas+tokens.
-Exemplo: "var resultado = (34 / (3 + 5)", gera os seguintes lexemas+tokens.
+
+ ## Analisador Léxico para uma linguagem hipotética.
+ A partir de uma entrada, onde contem uma cadeia de caracteres, é gerado uma lista de lexemas+tokens.
+ Exemplo: "var resultado = (34 / (3 + 5)", gera os seguintes lexemas+tokens.
 - 'var' → RESERVED_WORD_VAR
 - 'resultado' → IDENTIFIER
 - '=' → ASSIGNMENT
@@ -14,7 +15,9 @@ Exemplo: "var resultado = (34 / (3 + 5)", gera os seguintes lexemas+tokens.
 - ')' → DELIMITER_CLOSE_PARENTHESES
 
 ## Como usar
-Voce pode gerar um Nuget ou importar a refêrencia em uma aplicação de console. Em seguida faça:
+
+ Disponível em: [Nuget](https://www.nuget.org/packages/LexicalAnalyzer/1.0.0/)
+ Install into your PCL project and Client projects.
 
 ```
         static void Main(string[] args)
@@ -41,8 +44,11 @@ Voce pode gerar um Nuget ou importar a refêrencia em uma aplicação de console
         }
 ```
 
-O Analisador Léxico foi feito baseado em definições regulares que analisam os padrões do código de entrada e Autômatos Finitos que aceitam as definições regulares.
+ O Analisador Léxico foi feito baseado em definições regulares que analisam os padrões do código de entrada e Autômatos Finitos que aceitam as definições regulares.
 
 ## Tecnologias implementadas:
 
-- .NET Core 2.0
+ .NET Core 2.0
+
+### Sobre:
+ Desenvolvido por [Mauricio Moccelin](https://www.linkedin.com/in/mauriciomoccelin/) sobre [Licença](https://www.gnu.org/licenses/licenses.pt-br.html).
