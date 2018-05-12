@@ -2,17 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Company>M|M LexicalAnalyzer</Company>
+    <Company>M|M Mauricio Moccelin</Company>
     <Description>A partir de uma entrada, onde contem uma cadeia de caracteres, é gerado uma lista de lexemas+tokens</Description>
-    <PackageLicenseUrl>M|M © 2018</PackageLicenseUrl>
+    <PackageLicenseUrl>https://www.gnu.org/gnu/linux-and-gnu.pt-br.html</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mauriciomoccelin/LexicalAnalyzer</PackageProjectUrl>
-    <Copyright>https://www.gnu.org/gnu/linux-and-gnu.pt-br.html</Copyright>
+    <Copyright>M|M © 2018</Copyright>
     <RepositoryUrl>https://github.com/mauriciomoccelin/LexicalAnalyzer</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <PackageTags>#lexer #token #lexical #analyzer #compiler</PackageTags>
+    <PackageTags>lexer, token, lexical, analyzer, compiler</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Analisador Léxico para uma linguagem hipotética.</PackageReleaseNotes>
+    <PackageReleaseNotes>Reconhece valores decimais e inteiros.</PackageReleaseNotes>
     <Authors>Mauricio Moccelin (mauriciomoccellin@hotmail.com)</Authors>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+    <Product>Lexical Analyzer</Product>
   </PropertyGroup>
 
 </Project>
