@@ -30,7 +30,7 @@ namespace LexicalAnalyzer
 
             #region Numeric
 
-            tokens.Add(new TokenDefinition("DECIMAL", new Regex(@"\d+(\.\d{1,2})?")));
+            tokens.Add(new TokenDefinition("DECIMAL", new Regex(@"\d+(\.\d{1,2})m?")));
             tokens.Add(new TokenDefinition("NUMBER", new Regex(@"\d+")));
 
             #endregion
