@@ -16,7 +16,7 @@
 
 ## Como usar
 
- Disponível em: [Nuget](https://www.nuget.org/packages/LexicalAnalyzer/1.0.0/)
+ Disponível em: [Nuget](https://www.nuget.org/packages/LexicalAnalyzer/1.0.1/)
  Install into your PCL project and Client projects.
 
 ```
