@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Company>M|M Mauricio Moccelin</Company>
+    <Description>From an entry, containing a string, a list of lexemes + tokens is generated</Description>
+    <PackageProjectUrl>https://github.com/mauriciomoccelin/lexical-analyzer</PackageProjectUrl>
+    <Copyright>M|M © 2020</Copyright>
+    <RepositoryUrl>https://mauriciomoccelin.github.io/lexical-analyzer/</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>lexer, token, lexical, analyzer, compiler</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Reconhece valores decimais e inteiros.</PackageReleaseNotes>
+    <Authors>Mauricio Moccelin (mauriciomoccellin@hotmail.com)</Authors>
+    <Version>2.45.3</Version>
+    <AssemblyVersion>2.45.3.1</AssemblyVersion>
+    <FileVersion>2.45.3.1</FileVersion>
+    <Product>Lexical Analyzer</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
 </Project>
