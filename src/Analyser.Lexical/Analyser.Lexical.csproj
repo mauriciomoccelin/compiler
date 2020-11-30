@@ -16,11 +16,6 @@
     <AssemblyVersion>2.45.3.1</AssemblyVersion>
     <FileVersion>2.45.3.1</FileVersion>
     <Product>Lexical Analyzer</Product>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
-  </ItemGroup>
-
+  
 </Project>

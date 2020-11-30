@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace Lexical.Analyser
+namespace Analyser.Lexical
 {
     public sealed class Lexer : ILexer
     {
@@ -92,7 +92,7 @@ namespace Lexical.Analyser
             }
 
             yield return new Token(
-                "(EOF)",
+                TokenTypeEnum.Eof,
                 null,
                 new TokenPosition(
                     currentLine,
